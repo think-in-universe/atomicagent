@@ -1,18 +1,18 @@
 [
   {
-    "from": "BTC",
+    "from": "NEAR",
     "to": "ETH",
-    "rate": 42.63633734,
+    "rate": 0.01196685496,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",
-    "max": 28163916,
-    "min": 80000
+    "min": 2000000000000000000000000,
+    "max": 2000000000000000000000000000000
   },
   {
     "from": "ETH",
-    "to": "BTC",
-    "rate": 0.02345417,
+    "to": "NEAR",
+    "rate": 83.5641447368,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",
@@ -20,19 +20,19 @@
     "min": 40000000000000000
   },
   {
-    "from": "DAI",
+    "from": "NEAR",
     "to": "BTC",
-    "rate": 0.00013726,
+    "rate": 0.00008492866553,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",
-    "max": 2e+21,
-    "min": 5000000000000000000
+    "min": 2000000000000000000000000,
+    "max": 2000000000000000000000000000000
   },
   {
     "from": "BTC",
-    "to": "DAI",
-    "rate": 7285.42544146,
+    "to": "NEAR",
+    "rate": 11774.5874587459,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",
@@ -40,19 +40,19 @@
     "min": 80000
   },
   {
-    "from": "ETH",
+    "from": "NEAR",
     "to": "DAI",
-    "rate": 170.87362322,
+    "rate": 3.0450822423,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",
-    "max": 11704560000000000000,
-    "min": 40000000000000000
+    "min": 2000000000000000000000000,
+    "max": 2000000000000000000000000000000
   },
   {
     "from": "DAI",
-    "to": "ETH",
-    "rate": 0.00585228,
+    "to": "NEAR",
+    "rate": 0.3283983553,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",

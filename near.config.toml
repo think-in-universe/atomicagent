@@ -1,0 +1,78 @@
+# NEAR Sample Agent Config
+
+hostname = "agent"
+debug = 1
+
+
+[database]
+uri = "mongodb://localhost:27017/marketmaker_testnet"
+
+[application]
+apiPort = 3030
+swapExpirationDurationInSeconds = 21600
+nodeSwapExpirationDurationInSeconds = 10800
+
+[auth]
+cookieSecret = '58da74ef560e5578cb46219b7818d7c2'
+cookieMaxAgeMs = 86400000
+simplePassword = '25ec02267950f537347b4a7c02b00ced'
+
+[threshold]
+manualAboveFromAmountUsd = 1000000
+
+[worker]
+maxJobRetry = 5
+jobRetryDelay = "5 seconds"
+backendJobRetryDelay = "5 seconds"
+minConcurrentSwaps = 3
+defaultLockLifetimeInMs = 120000 # 2 min
+killswitch = 'pm2 stop "Worker"'
+
+[assets]
+  [assets.BTC]
+  blockTime = "1 minute"
+  network = "bitcoin_testnet"
+  addressType = "bech32"
+  swapMode = "p2wsh"
+  feeNumberOfBlocks = 2
+  defaultFee = "average"
+    [assets.BTC.api]
+    url = "https://liquality.io/testnet/electrs"
+    [assets.BTC.batchApi]
+    url = "https://liquality.io/electrs-testnet-batch/"
+    [assets.BTC.wallet]
+    type = "js"
+    mnemonic = "<seed here>"
+
+  [assets.ETH]
+  blockTime = "20 seconds"
+  network = "rinkeby"
+  defaultFee = "average"
+    [assets.ETH.rpc]
+    url = "https://rinkeby.infura.io/v3/22e2bbfec2344fa1b1c7c63ca8c23a46"
+    [assets.ETH.scraper]
+    url = "https://liquality.io/eth-rinkeby-api/"
+    [assets.ETH.wallet]
+    type = "js"
+    mnemonic = "<seed here>"
+
+  [assets.DAI]
+  blockTime = "20 seconds"
+  network = "rinkeby"
+  defaultFee = "average"
+  contractAddress = "0xcE2748BE67fB4346654B4500c4BB0642536365FC"
+    [assets.DAI.rpc]
+    url = "https://rinkeby.infura.io/v3/22e2bbfec2344fa1b1c7c63ca8c23a46"
+    [assets.DAI.scraper]
+    url = "https://liquality.io/eth-rinkeby-api/"
+    [assets.DAI.wallet]
+    type = "js"
+    mnemonic = "<seed here>"
+
+  [assets.NEAR]
+  blockTime = "1 seconds"
+  network = "near_testnet"
+  defaultFee = "average"
+    [assets.NEAR.wallet]
+    type = "js"
+    mnemonic = "<seed here>"
