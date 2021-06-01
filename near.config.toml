@@ -56,6 +56,32 @@ killswitch = 'pm2 stop "Worker"'
     type = "js"
     mnemonic = "<seed here>"
 
+  [assets.USDT]
+  blockTime = "20 seconds"
+  network = "rinkeby"
+  defaultFee = "average"
+  contractAddress = "0xcE2748BE67fB4346654B4500c4BB0642536365FC"
+    [assets.USDT.rpc]
+    url = "https://rinkeby.infura.io/v3/22e2bbfec2344fa1b1c7c63ca8c23a46"
+    [assets.USDT.scraper]
+    url = "https://liquality.io/eth-rinkeby-api/"
+    [assets.USDT.wallet]
+    type = "js"
+    mnemonic = "<seed here>"
+
+  [assets.USDC]
+  blockTime = "20 seconds"
+  network = "rinkeby"
+  defaultFee = "average"
+  contractAddress = "0xcE2748BE67fB4346654B4500c4BB0642536365FC"
+    [assets.USDC.rpc]
+    url = "https://rinkeby.infura.io/v3/22e2bbfec2344fa1b1c7c63ca8c23a46"
+    [assets.USDC.scraper]
+    url = "https://liquality.io/eth-rinkeby-api/"
+    [assets.USDC.wallet]
+    type = "js"
+    mnemonic = "<seed here>"
+
   [assets.DAI]
   blockTime = "20 seconds"
   network = "rinkeby"

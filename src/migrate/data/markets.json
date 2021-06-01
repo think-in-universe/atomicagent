@@ -2,7 +2,7 @@
   {
     "from": "NEAR",
     "to": "ETH",
-    "rate": 0.01196685496,
+    "rate": 0.001205611574,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",
@@ -12,7 +12,7 @@
   {
     "from": "ETH",
     "to": "NEAR",
-    "rate": 83.5641447368,
+    "rate": 829.4545454545,
     "spread": 0,
     "orderExpiresIn": 7200000,
     "status": "ACTIVE",
@@ -51,6 +51,46 @@
   },
   {
     "from": "DAI",
+    "to": "NEAR",
+    "rate": 0.3283983553,
+    "spread": 0,
+    "orderExpiresIn": 7200000,
+    "status": "ACTIVE",
+    "max": 2e+21,
+    "min": 5000000000000000000
+  },
+  {
+    "from": "NEAR",
+    "to": "USDC",
+    "rate": 3.0450822423,
+    "spread": 0,
+    "orderExpiresIn": 7200000,
+    "status": "ACTIVE",
+    "min": 2000000000000000000000000,
+    "max": 2000000000000000000000000000000
+  },
+  {
+    "from": "USDC",
+    "to": "NEAR",
+    "rate": 0.3283983553,
+    "spread": 0,
+    "orderExpiresIn": 7200000,
+    "status": "ACTIVE",
+    "max": 2e+21,
+    "min": 5000000000000000000
+  },
+  {
+    "from": "NEAR",
+    "to": "USDT",
+    "rate": 3.0450822423,
+    "spread": 0,
+    "orderExpiresIn": 7200000,
+    "status": "ACTIVE",
+    "min": 2000000000000000000000000,
+    "max": 2000000000000000000000000000000
+  },
+  {
+    "from": "USDT",
     "to": "NEAR",
     "rate": 0.3283983553,
     "spread": 0,
