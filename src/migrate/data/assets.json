@@ -21,6 +21,20 @@
     "minConf": 1
   },
   {
+    "code": "USDT",
+    "actualBalance": 0,
+    "min": 5000000000000000000,
+    "max": 2e+21,
+    "minConf": 1
+  },
+  {
+    "code": "USDC",
+    "actualBalance": 0,
+    "min": 5000000000000000000,
+    "max": 2e+21,
+    "minConf": 1
+  },
+  {
     "code": "NEAR",
     "actualBalance": 0,
     "min": 2000000000000000000000000,
